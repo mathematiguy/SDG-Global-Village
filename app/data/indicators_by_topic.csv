@@ -1,0 +1,71 @@
+topic	indicator_id	priority_rank	priority_order	indicator_description
+animals	C150102	2	11521	15.1.2 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+cities	C110101	2	11121	11.1.1 Proportion of urban population living in slums, informal settlements or inadequate housing
+cities	C110602	2	11122	11.6.2 Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+computers	C040401	1	10412	4.4.1 Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
+computers	C090c01	2	10926	9.c.1 Proportion of population covered by a mobile network, by technology
+fish	C140501	2	11421	14.5.1 Coverage of protected areas in relation to marine areas
+fish	C150102	2	11521	15.1.2 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+food	C020101	2	10221	2.1.1 Prevalence of undernourishment
+girls	C030702	1	10311	3.7.2 Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group
+girls	C050301	1	10511	5.3.1 Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18
+girls	C030101	2	10321	3.1.1 Maternal mortality ratio
+girls	C050501	2	10521	5.5.1 Proportion of seats held by women in (a) national parliaments and (b) local governments
+health	C030702	1	10311	3.7.2 Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group
+health	C030101	2	10321	3.1.1 Maternal mortality ratio
+health	C030201	2	10322	3.2.1 Under-five mortality rate
+health	C030601	2	10323	3.6.1 Death rate due to road traffic injuries
+homes	C110101	2	11121	11.1.1 Proportion of urban population living in slums, informal settlements or inadequate housing
+money	C080101	2	10824	8.1.1 Annual growth rate of real GDP per capita
+money	C090501	2	10922	9.5.1 Research and development expenditure as a proportion of GDP
+money	C090201	2	10925	9.2.1 Manufacturing value added as a proportion of GDP and per capita
+money	C100401	2	11021	10.4.1 Labour share of GDP, comprising wages and social protection transfers
+money	C100b01	2	11022	10.b.1 Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)
+nature	C150102	2	11521	15.1.2 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+nature	C150101	2	11522	15.1.1 Forest area as a proportion of total land area
+nature	C150201	2	11523	15.2.1 Progress towards sustainable forest management
+oceans	C140501	2	11421	14.5.1 Coverage of protected areas in relation to marine areas
+people	C050301	1	10511	5.3.1 Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18
+people	C080601	1	10811	8.6.1 Proportion of youth (aged 15-24 years) not in education, employment or training
+plants	C150102	2	11521	15.1.2 Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+plants	C150101	2	11522	15.1.1 Forest area as a proportion of total land area
+plants	C150201	2	11523	15.2.1 Progress towards sustainable forest management
+pollution	C090401	2	10923	9.4.1 CO2 emission per unit of value added
+pollution	C110602	2	11122	11.6.2 Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+pollution	C120401	2	11221	12.4.1 Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement
+poos	C060201	2	10623	6.2.1 Proportion of population using safely managed sanitation services, including a hand-washing facility with soap and water
+power	C070101	2	10721	7.1.1 Proportion of population with access to electricity
+power	C070102	2	10722	7.1.2 Proportion of population with primary reliance on clean fuels and technology
+power	C070201	2	10724	7.2.1 Renewable energy share in the total final energy consumption
+school	C040101	1	10411	4.1.1 Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex
+school	C040401	1	10412	4.4.1 Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill
+school	C040301	1	10413	4.3.1 Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex
+school	C040202	2	10421	4.2.2 Participation rate in organized learning (one year before the official primary entry age), by sex
+science	C040101	1	10411	4.1.1 Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex
+science	C090502	2	10921	9.5.2 Researchers (in full-time equivalent) per million inhabitants
+science	C090501	2	10922	9.5.1 Research and development expenditure as a proportion of GDP
+science	C090401	2	10923	9.4.1 CO2 emission per unit of value added
+science	C110602	2	11122	11.6.2 Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+science	C120401	2	11221	12.4.1 Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement
+seas	C140501	2	11421	14.5.1 Coverage of protected areas in relation to marine areas
+sharing	C010101	2	10121	1.1.1 Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)
+sharing	C050501	2	10521	5.5.1 Proportion of seats held by women in (a) national parliaments and (b) local governments
+sharing	C100401	2	11021	10.4.1 Labour share of GDP, comprising wages and social protection transfers
+sharing	C100b01	2	11022	10.b.1 Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)
+technology	C090502	2	10921	9.5.2 Researchers (in full-time equivalent) per million inhabitants
+technology	C090501	2	10922	9.5.1 Research and development expenditure as a proportion of GDP
+technology	C090c01	2	10926	9.c.1 Proportion of population covered by a mobile network, by technology
+transport	C030601	2	10323	3.6.1 Death rate due to road traffic injuries
+transport	C090102	2	10926	9.1.2 Passenger and freight volumes, by mode of transport
+water	C060402	2	10621	6.4.2 Level of water stress: freshwater withdrawal as a proportion of available freshwater resources
+water	C060101	2	10622	6.1.1 Proportion of population using safely managed drinking water services
+weather	C090401	2	10923	9.4.1 CO2 emission per unit of value added
+weather	C110602	2	11122	11.6.2 Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+working	C040301	1	10413	4.3.1 Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex
+working	C080601	1	10811	8.6.1 Proportion of youth (aged 15-24 years) not in education, employment or training
+working	C080701	2	10822	8.7.1 Proportion and number of children aged 5 17 years engaged in child labour, by sex and age
+working	C080502	2	10823	8.5.2 Unemployment rate, by sex, age and persons with disabilities
+working	C080101	2	10824	8.1.1 Annual growth rate of real GDP per capita
+working	C090502	2	10921	9.5.2 Researchers (in full-time equivalent) per million inhabitants
+working	C090202	2	10924	9.2.2 Manufacturing employment as a proportion of total employment
+working	C090201	2	10925	9.2.1 Manufacturing value added as a proportion of GDP and per capita
