@@ -14,7 +14,10 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 import plotly.graph_objs as go
 
-app = dash.Dash()
+app = dash.Dash(__name__)
+
+server = app.server
+server.secret_key = os.environ.get('SECRET_KEY', 'my-secret-key')
 
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
