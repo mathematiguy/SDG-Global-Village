@@ -42,7 +42,6 @@ exec(open("map/map.py").read())
 
 image_filename = 'test.jpg' # replace with your own image
 encoded_image = base64.b64encode(open('test.jpg', 'rb').read())
-print(encoded_image[:500])
 
 app.layout = html.Div(
     style={'backgroundColor': colors['background']}, 
@@ -168,25 +167,6 @@ def update_topic(selection):
         return ', '.join(selection)
     else: 
         return ''
-
-# @app.callback(
-#     Output('topic-selection', 'children'),
-#     [Input('select-topic', 'value')])
-# def update_topic(selection):
-#     if selection is not None:
-#         return ', '.join(selection)
-#     else: 
-#         return ''
-
-# Add a static image route that serves images from desktop
-# Be *very* careful here - you don't want to serve arbitrary files
-# from your computer or server
-# @app.server.route('{}<image_path>.png'.format(static_image_route))
-# def serve_image(image_path):
-#     image_name = 'test.jpg'
-#     # if image_name not in list_of_images:
-#     #     raise Exception('"{}" is excluded from the allowed static files'.format(image_path))
-#     return flask.send_from_directory(image_directory, image_name)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
