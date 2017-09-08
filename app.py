@@ -10,6 +10,8 @@ import flask
 import base64
 
 import nltk
+nltk.data.path.append('./nltk_data')
+
 from nltk.tokenize import word_tokenize, sent_tokenize
 
 import plotly.graph_objs as go
