@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# for heroku:
+dash-env
+*.pyc
+.DS_Store
+.env
