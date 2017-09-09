@@ -6,32 +6,33 @@ from dash.dependencies import Input, Output
 
 import os
 import json
-import flask
-import base64
 
-import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
-
 import plotly.graph_objs as go
 
 # import data for use
 from load_data import *
+from map import world_map_fig
 
 # create base map for country selection
-from map import world_map_fig
+# from home import layout, callbacks
 from parse_text import summarise_indicators
+
+# from home.callbacks import *
 
 app = dash.Dash(__name__)
 
 server = app.server
 server.secret_key = os.environ.get('SECRET_KEY', 'my-secret-key')
 
-app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
+app.css.append_css({'external_url': 'https://cdn.rawgit.com/plotly/dash-app-stylesheets/2d266c578d2a6e8850ebce48fdb52759b2aef506/stylesheet-oil-and-gas.css'})  # noqa: E501
 
 colors = {
     'background': '#FFFFFF',    # white
     'text': '#111111'           # black
 }
+
+encoded_image = base64.b64encode(open('test.jpg', 'rb').read())
 
 styles = {
     'column': {
@@ -43,9 +44,6 @@ styles = {
     },
     'pre': {'border': 'thin lightgrey solid'}
 }
-
-image_filename = 'test.jpg' # replace with your own image
-encoded_image = base64.b64encode(open('test.jpg', 'rb').read())
 
 app.layout = html.Div(
     style = {'backgroundColor': colors['background']}, 
@@ -68,23 +66,23 @@ app.layout = html.Div(
 
         html.Div('What is your name?',
             style = {
-            'textAlign': 'center',
-            'color': colors['text']
-            }
+                'textAlign': 'center',
+                'color': colors['text']
+                }
         ),
 
         dcc.Input(type = 'text',
             id = 'user-name',
             style = {
-            'textAlign': 'center',
-            'color': colors['text']
-            }),
+                'textAlign': 'center',
+                'color': colors['text']
+                }),
 
         html.Div('Are you a boy or a girl?',
             style = {
-            'textAlign': 'center',
-            'color': colors['text']
-            }
+                'textAlign': 'center',
+                'color': colors['text']
+                }
         ),
 
         dcc.RadioItems(
@@ -98,9 +96,9 @@ app.layout = html.Div(
 
         html.Div('Select your topics:', 
             style = {
-            'textAlign': 'center',
-            'color': colors['text']
-            }
+                'textAlign': 'center',
+                'color': colors['text']
+                }
         ),
 
         dcc.Dropdown(
@@ -140,7 +138,7 @@ app.layout = html.Div(
             ),
 
             html.Img(src = 'data:image/jpeg;base64,{}'
-                        .format(encoded_image.decode("utf-8"))),
+                .format(encoded_image.decode("utf-8"))),
 
         ]),
 
@@ -151,14 +149,14 @@ app.layout = html.Div(
     [Input('world-map', 'clickData')])
 def update_country_click(clickData):
     if clickData is not None:
-        return clickData['points'].pop(0)['text']
+        return clickData['points'][0]['text']
 
 @app.callback(
     Output('country-text', 'children'),
     [Input('world-map', 'clickData')])
 def update_country_text(dropdown_value, num_sents = 5):
     if dropdown_value is not None:
-        value_text = dropdown_value['points'].pop(0)['text']
+        value_text = dropdown_value['points'][0]['text']
         country_text = (simple_wiki[simple_wiki.name == value_text]
                             .clean_summary
                             .values[0])

@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import base64
 
 sdg_data = pd.read_csv("data/sdg_data.csv", encoding = 'ansi', 
 	low_memory = False)
@@ -18,6 +19,7 @@ topics = (indicators_by_topic.topic
 
 simple_wiki = pd.read_csv("data/simple_wiki.csv")
 
+# set percentage bounds and text
 perc_data = pd.DataFrame(
 		{'lower_bound': [0.00, 0.05, 0.34, 0.68, 0.95, 1.00],
 		 'upper_bound': [0.05, 0.34, 0.68, 0.95, 1.00, np.infty],
