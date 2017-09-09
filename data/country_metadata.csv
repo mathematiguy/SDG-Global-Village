@@ -1,0 +1,217 @@
+country_code,country,nickname,region_member_of,population,ethnicity,white,yellow,brown,black,male_name,female_name
+AFG,Afghanistan,Afghanistan,Southern Asia,35000000,Afghanistan,1,1,97,1,Mohamed,Maryam
+ALB,Albania,Albania,Southern Europe,2000000,Albania,97,1,1,1,Noel,Amelia
+DZA,Algeria,Algeria,Northern Africa,41000000,Algeria,1,1,97,1,Mohamed,Fatima
+ASM,American Samoa,American Samoa,Polynesia,60000,Samoa,1,1,97,1,Noah,Emma
+AND,Andorra,Andorra,Southern Europe,80000,Andorra,94,1,4,1,Marc,Laia
+AGO,Angola,Angola,Middle Africa,29000000,Angola,3,2,6,89,Manuel,Maria
+AIA,Anguilla,Anguilla,Caribbean,10000,Guyana,2,2,60,36,Jack,Amelia
+ATG,Antigua and Barbuda,Antigua and Barbuda,Caribbean,100000,Guyana,2,2,60,36,Sebastian,Camila
+ARG,Argentina,Argentina,South America,44000000,Argentina,97,1,1,1,Santiago,Sofia
+ARM,Armenia,Armenia,Western Asia,2000000,Armenia,1,1,97,1,Davit,Nareh
+ABW,Aruba,Aruba,Caribbean,110000,Guyana,2,2,60,36,Sebastian,Camila
+AUS,Australia,Australia,Australia and New Zealand,24000000,Australia,91,7,1,1,Oliver,Charlotte
+AUT,Austria,Austria,Western Europe,8000000,Austria,96,1,2,1,Lukas,Anna
+AZE,Azerbaijan,Azerbaijan,Western Asia,9000000,Azerbaijan,3,1,95,1,Yusif,Zahra
+BHM,"Bahamas, The",Bahamas,Caribbean,400000,Bahamas,12,1,2,85,Sebastian,Camila
+BHR,Bahrain,Bahrain,Western Asia,1000000,Bahrain,9,9,72,10,Mohamed,Maryam
+BGD,Bangladesh,Bangladesh,Southern Asia,164000000,Bangladesh,1,1,97,1,Aarav,Aadya
+BRB,Barbados,Barbados,Caribbean,290000,Barbados,4,3,3,90,Sebastian,Camila
+BLR,Belarus,Belarus,Eastern Europe,9000000,Belarus,97,1,1,1,Maksim,Palina
+BEL,Belgium,Belgium,Western Europe,11000000,Belgium,91,1,7,1,Lucas,Emma
+BLZ,Belize,Belize,Central America,370000,Belize,3,3,91,3,Sebastian,Camila
+BEN,Benin,Benin,Western Africa,11000000,Benin,1,1,1,97,Mamadou,Fatoumata
+BMU,Bermuda,Bermuda,Northern America,60000,United States of America,70,4,13,13,Noah,Emma
+BTN,Bhutan,Bhutan,Southern Asia,810000,Bhutan,1,1,97,1,Aarav,Aadya
+BOL,Bolivia,Bolivia,South America,11000000,Bolivia (Plurinational State of),15,1,83,1,Agustin,Sofia
+BIH,Bosnia and Herzegovina,Bosnia and Herzegovina,Southern Europe,3000000,Bosnia and Herzegovina,97,1,1,1,Daris,Sara
+BWA,Botswana,Botswana,Southern Africa,2000000,Botswana,3,1,3,93,Junior,Precious
+BRA,Brazil,Brazil,South America,209000000,Brazil,54,1,39,6,Miguel,Alice
+VGB,British Virgin Islands,British Virgin Islands,Caribbean,30000,Guyana,2,2,60,36,Jack,Amelia
+BRN,Brunei,Brunei,South America,11000000,Bolivia (Plurinational State of),15,1,83,1,Agustin,Sofia
+BGR,Bulgaria,Bulgaria,Eastern Europe,7000000,Bulgaria,84,1,14,1,Georgi,Viktoria
+BFA,Burkina Faso,Burkina Faso,Western Africa,19000000,Burkina Faso,1,1,1,97,Mamadou,Fatoumata
+MMR,Burma,Myanmar,South-Eastern Asia,53000000,Myanmar,1,4,94,1,Mohamed,Maryam
+BDI,Burundi,Burundi,Eastern Africa,10000000,Burundi,1,1,1,97,Manuel,Maria
+CPV,Cabo Verde,Cabo Verde,Western Africa,550000,Cabo Verde,1,1,70,28,Mamadou,Fatoumata
+KHM,Cambodia,Cambodia,South-Eastern Asia,16000000,Cambodia,1,97,1,1,Muhamed,Hannah
+CMR,Cameroon,Cameroon,Middle Africa,24000000,Cameroon,1,1,1,97,Manuel,Maria
+CAN,Canada,Canada,Northern America,36000000,Canada,68,2,28,2,Liam,Emma
+CYM,Cayman Islands,Cayman Islands,Caribbean,60000,Guyana,2,2,60,36,Noah,Emma
+CAF,Central African Republic,Central African Republic,Middle Africa,4000000,Central African Republic,1,1,1,97,Manuel,Maria
+TCD,Chad,Chad,Middle Africa,14000000,Chad,1,1,1,97,Manuel,Maria
+CHL,Chile,Chile,South America,18000000,Chile,95,1,3,1,Agustin,Sofia
+CHN,China,China,Eastern Asia,1400000000,China,1,97,1,1,Cheng,Li
+COL,Colombia,Colombia,South America,49000000,Colombia,20,1,75,4,Santiago,Mariana
+COM,Comoros,Comoros,Eastern Africa,810000,Comoros,1,1,1,97,Manuel,Maria
+COD,"Congo, Democratic Republic of the",Democratic Republic of the Congo,Middle Africa,5000000,Congo,1,1,1,97,Manuel,Maria
+COG,"Congo, Republic of the",Congo,Middle Africa,5000000,Congo,1,1,1,97,Manuel,Maria
+COK,Cook Islands,Cook Islands,Polynesia,20000,Samoa,1,1,97,1,Nikau,Maia
+CRI,Costa Rica,Costa Rica,Central America,4000000,Costa Rica,48,1,48,3,Sebastian,Camila
+CIV,Cote d'Ivoire,Ivory Coast,Western Africa,24000000,C�te d'Ivoire,1,1,1,97,Mamadou,Fatoumata
+HRV,Croatia,Croatia,Southern Europe,4000000,Croatia,97,1,1,1,Lukas,Lana
+CUB,Cuba,Cuba,Caribbean,11000000,Cuba,37,1,51,11,Sebastian,Camila
+CUW,Curacao,Curacao,Caribbean,160000,Guyana,2,2,60,36,Sebastian,Camila
+CYP,Cyprus,Cyprus,Western Asia,1000000,Cyprus,77,1,21,1,Andreas,Maria
+CZE,Czech Republic,Czech Republic,Eastern Europe,10000000,Czechia,97,1,1,1,Jakub,Tereza
+DNK,Denmark,Denmark,Northern Europe,5000000,Denmark,97,1,1,1,Noah,Sofia
+DJI,Djibouti,Djibouti,Eastern Africa,1000000,Djibouti,2,1,1,96,Manuel,Maria
+DMA,Dominica,Dominica,Caribbean,70000,Dominica,33,1,33,33,Sebastian,Camila
+DOM,Dominican Republic,Dominican Republic,Caribbean,10000000,Dominican Republic,16,1,72,11,Sebastian,Camila
+ECU,Ecuador,Ecuador,South America,16000000,Ecuador,1,1,95,3,Santiago,Mariana
+EGY,Egypt,Egypt,Northern Africa,97000000,Egypt,1,1,97,1,Mohamed,Shaimaa
+SLV,El Salvador,El Salvador,Central America,6000000,El Salvador,9,1,89,1,Santiago,Ximena
+GNQ,Equatorial Guinea,Equatorial Guinea,Middle Africa,1000000,Equatorial Guinea,1,1,1,97,Manuel,Maria
+ERI,Eritrea,Eritrea,Eastern Africa,5000000,Eritrea,2,1,3,94,Manuel,Maria
+EST,Estonia,Estonia,Northern Europe,1000000,Estonia,97,1,1,1,Rasmus,Sofia
+ETH,Ethiopia,Ethiopia,Eastern Africa,104000000,Ethiopia,1,1,1,97,Manuel,Maria
+FLK,Falkland Islands (Islas Malvinas),Falkland Islands,Eastern Europe,10000000,Czechia,97,1,1,1,Jakub,Tereza
+FRO,Faroe Islands,Faroe Islands,Northern Europe,50000,Denmark,97,1,1,1,Benjamin,Eva
+FJI,Fiji,Fiji,Melanesia,910000,Fiji,1,1,97,1,Aarav,Aadya
+FIN,Finland,Finland,Northern Europe,5000000,Finland,97,1,1,1,Onni,Sofia
+FRA,France,France,Western Europe,64000000,France,97,1,1,1,Gabriel,Louise
+PYF,French Polynesia,French Polynesia,Polynesia,280000,Vanuatu,1,1,97,1,Maui,Tiare
+GAB,Gabon,Gabon,Middle Africa,2000000,Gabon,1,1,1,97,Manuel,Maria
+GMB,"Gambia, The",Gambia,Western Africa,2000000,Gambia,1,1,1,97,Mamadou,Fatoumata
+GEO,Georgia,Georgia,Western Asia,3000000,Georgia,91,1,7,1,Giorgi,Mariami
+DEU,Germany,Germany,Western Europe,82000000,Germany,94,1,4,1,Ben,Mia
+GHA,Ghana,Ghana,Western Africa,28000000,Ghana,1,1,1,97,Mamadou,Fatoumata
+GIB,Gibraltar,Gibraltar,Southern Europe,30000,Spain,97,1,1,1,Hugo,Lucia
+GRC,Greece,Greece,Southern Europe,11000000,Greece,97,1,1,1,Georgios,Maria
+GRL,Greenland,Greenland,Northern America,60000,Canada,68,2,28,2,Malik,Ivaana
+GRD,Grenada,Grenada,Caribbean,110000,Grenada,1,1,17,81,Sebastian,Camila
+GUM,Guam,Guam,Micronesia,160000,United States of America,70,4,13,13,Noah,Emma
+GTM,Guatemala,Guatemala,Central America,16000000,Guatemala,1,1,97,1,Santiago,Ximena
+GNB,Guinea-Bissau,Guinea-Bissau,Western Africa,1000000,Guinea-Bissau,1,1,1,97,Mamadou,Fatoumata
+GIN,Guinea,Guinea,Western Africa,12000000,Guinea,1,1,1,97,Mamadou,Fatoumata
+GUY,Guyana,Guyana,South America,780000,Guyana,2,2,60,36,Sebastian,Camila
+HTI,Haiti,Haiti,Caribbean,10000000,Haiti,2,1,2,95,Stevenson,Widelene
+HND,Honduras,Honduras,Central America,9000000,Honduras,1,1,96,2,Santiago,Ximena
+HKG,Hong Kong,Hong Kong,Eastern Asia,7000000,China,1,97,1,1,Cheng,Li
+HUN,Hungary,Hungary,Eastern Europe,9000000,Hungary,92,1,6,1,Bence,Hanna
+ISL,Iceland,Iceland,Northern Europe,340000,Iceland,94,2,2,2,Aron,Margret
+IND,India,India,Southern Asia,1300000000,India,1,1,97,1,Aarav,Aadya
+IDN,Indonesia,Indonesia,South-Eastern Asia,263000000,Indonesia,6,7,81,6,Muhamed,Hannah
+IRN,Iran,Iran,Southern Asia,81000000,Iran (Islamic Republic of),1,1,97,1,Amir-Ali,Fatemeh
+IRQ,Iraq,Iraq,Western Asia,38000000,Iraq,1,1,97,1,Ali,Maryam
+IRL,Ireland,Ireland,Northern Europe,4000000,Ireland,97,1,1,1,Sean,Emily
+IMN,Isle of Man,Isle of Man,Northern Europe,80000,United Kingdom of Great Britain and Northern Ireland,92,1,5,2,James,Isabella
+ISR,Israel,Israel,Western Asia,8000000,Israel,32,13,40,15,Noam,Noa
+ITA,Italy,Italy,Southern Europe,59000000,Italy,97,1,1,1,Francesco,Sofia
+JAM,Jamaica,Jamaica,Caribbean,2000000,Jamaica,1,1,1,97,Jayden,Gabrielle
+JPN,Japan,Japan,Eastern Asia,127000000,Japan,1,97,1,1,So,Riko
+JOR,Jordan,Jordan,Western Asia,9000000,Jordan,1,1,97,1,Mohammed,Jana
+KAZ,Kazakhstan,Kazakhstan,Central Asia,18000000,Kazakhstan,39,1,59,1,Yerasyl,Ayzere
+KEN,Kenya,Kenya,Eastern Africa,49000000,Kenya,1,1,1,97,Manuel,Maria
+KIR,Kiribati,Kiribati,Micronesia,120000,Kiribati,1,1,97,1,Nikau,Maia
+KOR,"Korea, North",North Korea,Eastern Asia,25000000,Democratic People's Republic of Korea,1,97,1,1,Min-jun,Seo-yun
+PRK,"Korea, South",South Korea,Eastern Asia,50000000,Republic of Korea,1,97,1,1,Min-jun,Seo-yun
+KWT,Kuwait,Kuwait,Western Asia,4000000,Kuwait,2,2,94,2,Mohammed,Fatma
+KGZ,Kyrgyzstan,Kyrgyzstan,Central Asia,6000000,Kyrgyzstan,15,1,83,1,Yerasyl,Ayzere
+LAO,Laos,Laos,South-Eastern Asia,6000000,Lao People's Democratic Republic,1,97,1,1,Muhamed,Hannah
+LVA,Latvia,Latvia,Northern Europe,1000000,Latvia,97,1,1,1,Roberts,Sofia
+LBN,Lebanon,Lebanon,Western Asia,6000000,Lebanon,1,1,97,1,Elie,Marie
+LSO,Lesotho,Lesotho,Southern Africa,2000000,Lesotho,1,1,1,97,Junior,Precious
+LBR,Liberia,Liberia,Western Africa,4000000,Liberia,1,1,3,95,Mamadou,Fatoumata
+LBY,Libya,Libya,Northern Africa,6000000,Libya,1,1,97,1,Mohammed,Aya
+LIE,Liechtenstein,Liechtenstein,Western Europe,40000,Liechtenstein,97,1,1,1,Benjamin,Anna
+LTU,Lithuania,Lithuania,Northern Europe,2000000,Lithuania,97,1,1,1,Lukas,Emilija
+LUX,Luxembourg,Luxembourg,Western Europe,580000,Luxembourg,97,1,1,1,Gabriel,Emma
+MAC,Macau,Macao,Eastern Asia,620000,China,1,97,1,1,Cheng,Li
+MKD,Macedonia,Macedonia,Southern Europe,2000000,The former Yugoslav Republic of Macedonia,91,1,7,1,Aleksandar,Marija
+MDG,Madagascar,Madagascar,Eastern Africa,25000000,Madagascar,1,1,49,49,Manuel,Maria
+MWI,Malawi,Malawi,Eastern Africa,18000000,Malawi,1,1,1,97,Manuel,Maria
+MYS,Malaysia,Malaysia,South-Eastern Asia,31000000,Malaysia,2,26,70,2,Muhamed,Hannah
+MDV,Maldives,Maldives,Southern Asia,440000,Maldives,1,1,97,1,Aarav,Aadya
+MLI,Mali,Mali,Western Africa,18000000,Mali,2,2,10,86,Mamadou,Fatoumata
+MLT,Malta,Malta,Southern Europe,430000,Malta,49,1,49,1,Luke,Elena
+MHL,Marshall Islands,Marshall Islands,Micronesia,50000,Marshall Islands,1,1,97,1,Maui,Tiare
+MRT,Mauritania,Mauritania,Western Africa,4000000,Mauritania,1,1,49,49,Mamadou,Fatoumata
+MUS,Mauritius,Mauritius,Eastern Africa,1000000,Mauritius,1,1,97,1,Manuel,Maria
+MEX,Mexico,Mexico,Central America,129000000,Mexico,9,1,89,1,Santiago,Ximena
+FSM,"Micronesia, Federated States of",Micronesia,Micronesia,110000,United States of America,70,4,13,13,Maui,Tiare
+MDA,Moldova,Moldova,Eastern Europe,4000000,Republic of Moldova,97,1,1,1,David,Sofia
+MCO,Monaco,Monaco,Western Europe,40000,Monaco,97,1,1,1,Monaco,Victoria
+MNG,Mongolia,Mongolia,Eastern Asia,3000000,Mongolia,1,94,4,1,Naranbaatar,Bolormaa
+MNE,Montenegro,Montenegro,Southern Europe,630000,Montenegro,86,1,12,1,Nikola,Sara
+MAR,Morocco,Morocco,Northern Africa,35000000,Morocco,1,1,97,1,Mohamed,Fatima
+MOZ,Mozambique,Mozambique,Eastern Africa,29000000,Mozambique,1,1,1,97,Manuel,Maria
+NAM,Namibia,Namibia,Southern Africa,2000000,Namibia,6,1,7,86,Junior,Precious
+NPL,Nepal,Nepal,Southern Asia,29000000,Nepal,1,1,97,1,Krishna,Sunita
+NLD,Netherlands,Netherlands,Western Europe,17000000,Netherlands,91,1,7,1,Daan,Anna
+NCL,New Caledonia,New Caledonia,Melanesia,280000,Vanuatu,1,1,97,1,Gabriel,Louise
+NZL,New Zealand,New Zealand,Australia and New Zealand,4000000,New Zealand,71,6,22,1,Nikau,Maia
+NIC,Nicaragua,Nicaragua,Central America,6000000,Nicaragua,17,1,74,8,Santiago,Ximena
+NGA,Nigeria,Nigeria,Western Africa,190000000,Nigeria,1,1,1,97,Mamadou,Fatoumata
+NER,Niger,Niger,Western Africa,21000000,Niger,1,1,1,97,Mamadou,Fatoumata
+NIU,Niue,Niue,Polynesia,1600,Samoa,1,1,97,1,Nikau,Maia
+MNP,Northern Mariana Islands,Northern Mariana Islands,Micronesia,60000,United States of America,70,4,13,13,Maui,Tiare
+NOR,Norway,Norway,Northern Europe,5000000,Norway,97,1,1,1,Oskar,Nora
+OMN,Oman,Oman,Western Asia,4000000,Oman,1,1,97,1,Mohamed,Maryam
+PAK,Pakistan,Pakistan,Southern Asia,197000000,Pakistan,1,1,97,1,Mohammad,Fatima
+PLW,Palau,Palau,Micronesia,20000,Palau,2,7,90,1,Maui,Tiare
+PAN,Panama,Panama,Central America,4000000,Panama,10,1,88,1,Santiago,Ximena
+PNG,Papua New Guinea,Papua New Guinea,Melanesia,8000000,Papua New Guinea,1,1,97,1,Oliver,Charlotte
+PRY,Paraguay,Paraguay,South America,6000000,Paraguay,2,1,96,1,Ramon,Maria
+PER,Peru,Peru,South America,32000000,Peru,15,2,82,1,Luis,Maria
+PHL,Philippines,Philippines,South-Eastern Asia,104000000,Philippines,6,7,81,6,John,Althea
+POL,Poland,Poland,Eastern Europe,38000000,Poland,97,1,1,1,Antoni,Zuzanna
+PRT,Portugal,Portugal,Southern Europe,10000000,Portugal,97,1,1,1,Rodrigo,Maria
+PRI,Puerto Rico,Puerto Rico,Caribbean,3000000,Mexico,9,1,89,1,Sebastian,Valentina
+QAT,Qatar,Qatar,Western Asia,2000000,Qatar,3,3,91,3,Mohamed,Maryam
+ROU,Romania,Romania,Eastern Europe,19000000,Romania,95,1,3,1,Andrei,Maria
+RUS,Russia,Russia,Eastern Europe,143000000,Russian Federation,87,1,11,1,Alexander,Sofiya
+RWA,Rwanda,Rwanda,Eastern Africa,12000000,Rwanda,1,1,1,97,Manuel,Maria
+KNA,Saint Kitts and Nevis,Saint Kitts and Nevis,Caribbean,60000,Saint Kitts and Nevis,1,1,1,97,Jack,Amelia
+LCA,Saint Lucia,Saint Lucia,Caribbean,180000,Saint Lucia,1,1,9,89,Jack,Amelia
+MAF,Saint Martin,French Saint Martin,Caribbean,37000,Guyana,2,2,60,36,Gabriel,Louise
+SPM,Saint Pierre and Miquelon,Saint Pierre and Miquelon,Northern America,6000,Canada,68,2,28,2,Liam,Emma
+VCT,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Caribbean,110000,Guyana,2,2,60,36,Sebastian,Camila
+WSM,Samoa,Samoa,Polynesia,200000,Samoa,1,1,97,1,Nikau,Maia
+SMR,San Marino,San Marino,Southern Europe,30000,San Marino,97,1,1,1,Francesco,Sofia
+STP,Sao Tome and Principe,Sao Tome and Principe,Middle Africa,200000,Sao Tome and Principe,5,1,28,66,Manuel,Maria
+SAU,Saudi Arabia,Saudi Arabia,Western Asia,32000000,Saudi Arabia,1,3,93,3,Mohamed,Maryam
+SEN,Senegal,Senegal,Western Africa,15000000,Senegal,3,3,3,91,Mamadou,Fatoumata
+SRB,Serbia,Serbia,Southern Europe,8000000,Serbia,91,1,7,1,Nikola,Milica
+SYC,Seychelles,Seychelles,Eastern Africa,90000,Seychelles,33,13,27,27,Manuel,Maria
+SLE,Sierra Leone,Sierra Leone,Western Africa,7000000,Sierra Leone,1,1,1,97,Mamadou,Fatoumata
+SGP,Singapore,Singapore,South-Eastern Asia,5000000,Singapore,1,77,21,1,Muhamed,Hannah
+SXM,Sint Maarten,Dutch Sint Maarten,Caribbean,40000,Guyana,2,2,60,36,Sebastian,Camila
+SVK,Slovakia,Slovakia,Eastern Europe,5000000,Slovakia,96,1,2,1,Jakub,Sofia
+SVN,Slovenia,Slovenia,Southern Europe,2000000,Slovenia,97,1,1,1,Luka,Ema
+SLB,Solomon Islands,Solomon Islands,Melanesia,610000,Solomon Islands,1,1,97,1,Gabriel,Louise
+SOM,Somalia,Somalia,Eastern Africa,14000000,Somalia,1,1,1,97,Manuel,Maria
+ZAF,South Africa,South Africa,Southern Africa,56000000,South Africa,10,1,10,79,Junior,Precious
+SSD,South Sudan,South Sudan,Eastern Africa,12000000,Sudan,1,1,46,52,Manuel,Maria
+ESP,Spain,Spain,Southern Europe,46000000,Spain,97,1,1,1,Hugo,Lucia
+LKA,Sri Lanka,Sri Lanka,Southern Asia,20000000,Sri Lanka,2,2,86,10,Aarav,Aadya
+SDN,Sudan,North Sudan,Northern Africa,40000000,Sudan,1,1,46,52,Mohamed,Shaimaa
+SUR,Suriname,Suriname,South America,560000,Suriname,1,2,87,10,Sebastian,Camila
+SWZ,Swaziland,Swaziland,Southern Africa,1000000,Swaziland,3,1,1,95,Junior,Precious
+SWE,Sweden,Sweden,Northern Europe,9000000,Sweden,97,1,1,1,Oscar,Alice
+CHE,Switzerland,Switzerland,Western Europe,8000000,Switzerland,95,1,3,1,Noah,Mia
+SYR,Syria,Syria,Western Asia,18000000,Syrian Arab Republic,2,2,94,2,Yusuf,Fatma
+TJK,Tajikistan,Tajikistan,Central Asia,8000000,Tajikistan,1,1,97,1,Muhammad,Sumayah
+TZA,Tanzania,Tanzania,Eastern Africa,57000000,United Republic of Tanzania,1,1,1,97,Manuel,Maria
+THA,Thailand,Thailand,South-Eastern Asia,69000000,Thailand,3,91,3,3,Somchai,Hannah
+TLS,Timor-Leste,East Timor,South-Eastern Asia,1000000,Timor-Leste,1,10,88,1,Muhamed,Hannah
+TGO,Togo,Togo,Western Africa,7000000,Togo,1,1,1,97,Mamadou,Fatoumata
+TON,Tonga,Tonga,Polynesia,110000,Tonga,1,1,97,1,Nikau,Maia
+TTO,Trinidad and Tobago,Trinidad and Tobago,Caribbean,1000000,Trinidad and Tobago,1,1,60,38,Sebastian,Camila
+TUN,Tunisia,Tunisia,Northern Africa,11000000,Tunisia,1,1,97,1,Mehdi,Mariam
+TUR,Turkey,Turkey,Western Asia,80000000,Turkey,1,1,97,1,Yusuf,Fatma
+TKM,Turkmenistan,Turkmenistan,Central Asia,5000000,Turkmenistan,6,1,92,1,Muhammad,Sumayah
+TUV,Tuvalu,Tuvalu,Polynesia,10000,Tuvalu,1,1,97,1,Maui,Tiare
+UGA,Uganda,Uganda,Eastern Africa,42000000,Uganda,1,1,1,97,Manuel,Maria
+UKR,Ukraine,Ukraine,Eastern Europe,44000000,Ukraine,97,1,1,1,Artem,Anna
+ARE,United Arab Emirates,United Arab Emirates,Western Asia,9000000,United Arab Emirates,4,4,91,1,Mohammad,Mariam
+GBR,United Kingdom,United Kingdom,Northern Europe,66000000,United Kingdom of Great Britain and Northern Ireland,92,1,5,2,Jack,Amelia
+USA,United States,United States of America,Northern America,324000000,United States of America,70,4,13,13,Noah,Emma
+URY,Uruguay,Uruguay,South America,3000000,Uruguay,87,1,8,4,Santiago,Florencia
+UZB,Uzbekistan,Uzbekistan,Central Asia,31000000,Uzbekistan,6,1,92,1,Muhammad,Sumayah
+VUT,Vanuatu,Vanuatu,Melanesia,280000,Vanuatu,1,1,97,1,Gabriel,Louise
+VEN,Venezuela,Venezuela,South America,31000000,Venezuela (Bolivarian Republic of),1,1,91,7,Sebastian,Camila
+VNM,Vietnam,Vietnam,South-Eastern Asia,95000000,Viet Nam,1,97,1,1,Cheng,Li
+YEM,Yemen,Yemen,Western Asia,28000000,Yemen,1,1,97,1,Mohamed,Maryam
+ZMB,Zambia,Zambia,Eastern Africa,17000000,Zambia,1,1,1,97,Manuel,Maria
+ZWE,Zimbabwe,Zimbabwe,Eastern Africa,16000000,Zimbabwe,1,1,1,97,Manuel,Maria

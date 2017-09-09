@@ -14,6 +14,13 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 import plotly.graph_objs as go
 
+# import data for use
+from load_data import *
+
+# create base map for country selection
+from map import world_map_fig
+from parse_text import summarise_indicators
+
 app = dash.Dash(__name__)
 
 server = app.server
@@ -37,73 +44,69 @@ styles = {
     'pre': {'border': 'thin lightgrey solid'}
 }
 
-# import data for use
-exec(open("load_data.py").read())
-
-# create base map for country selection
-exec(open("map/map.py").read())
-
 image_filename = 'test.jpg' # replace with your own image
 encoded_image = base64.b64encode(open('test.jpg', 'rb').read())
 
 app.layout = html.Div(
-    style={'backgroundColor': colors['background']}, 
+    style = {'backgroundColor': colors['background']}, 
     children=[
         html.H1(
-            children='Welcome to Global Village!',
-            style={
+            children = 'Welcome to Global Village!',
+            style = {
                 'textAlign': 'center',
                 'color': colors['text']
             }
         ),
 
         html.H3(
-            children='See stories about kids in other United Nations Countries',
-            style={
+            children = 'See stories about kids in other United Nations Countries',
+            style = {
                 'textAlign': 'center',
                 'color': colors['text']
             }
         ),
 
         html.Div('What is your name?',
-            style={
+            style = {
             'textAlign': 'center',
             'color': colors['text']
             }
         ),
 
-        dcc.Input(type='text',
-            style={
+        dcc.Input(type = 'text',
+            id = 'user-name',
+            style = {
             'textAlign': 'center',
             'color': colors['text']
             }),
 
         html.Div('Are you a boy or a girl?',
-            style={
+            style = {
             'textAlign': 'center',
             'color': colors['text']
             }
         ),
 
         dcc.RadioItems(
-            options=[
-                {'label': 'Boy', 'value': 'girl'},
-                {'label': 'Girl', 'value': 'boy'},
+            id = 'user-sex',
+            options = [
+                {'label': 'Boy', 'value': 'male'},
+                {'label': 'Girl', 'value': 'female'},
             ],
-            value='MTL'
+            value = 'MTL'
         ),
 
         html.Div('Select your topics:', 
-            style={
+            style = {
             'textAlign': 'center',
             'color': colors['text']
             }
         ),
 
         dcc.Dropdown(
-            id = 'select-topic',
-            options=[{'label': s, 'value': s} for s in topics],
-            multi=True,
+            id = 'user-topic',
+            options = [{'label': s, 'value': s} for s in topics],
+            multi = True,
         ),
 
         dcc.Graph(
@@ -123,19 +126,21 @@ app.layout = html.Div(
                 Your topics are:
                 """.replace('    ', '')),
         
-            html.Div('Here is an image from the country you selected:', 
-                style={
-                'textAlign': 'center',
-                'color': colors['text']
-                }
-            ),
-
-            html.Img(src='data:image/jpeg;base64,{}'
-                        .format(encoded_image.decode("utf-8"))),
-
             html.H3(id = 'topic-selection'),
 
-            html.H5(id = "country-text")
+            html.H5(id = "country-text"),
+
+            html.P(id = "topic-text"),
+
+            html.Div('Here is an image from the country you selected:',
+                style = {
+                    'textAlign': 'center',
+                    'color': colors['text']
+                    }
+            ),
+
+            html.Img(src = 'data:image/jpeg;base64,{}'
+                        .format(encoded_image.decode("utf-8"))),
 
         ]),
 
@@ -149,9 +154,9 @@ def update_country_click(clickData):
         return clickData['points'].pop(0)['text']
 
 @app.callback(
-    dash.dependencies.Output('country-text', 'children'),
-    [dash.dependencies.Input('world-map', 'clickData')])
-def update_country_text(dropdown_value):
+    Output('country-text', 'children'),
+    [Input('world-map', 'clickData')])
+def update_country_text(dropdown_value, num_sents = 5):
     if dropdown_value is not None:
         value_text = dropdown_value['points'].pop(0)['text']
         country_text = (simple_wiki[simple_wiki.name == value_text]
@@ -160,16 +165,38 @@ def update_country_text(dropdown_value):
     else:
         country_text = ""
 
-    return " ".join(sent_tokenize(country_text)[:5])
+    return " ".join(sent_tokenize(country_text)[:num_sents])
 
 @app.callback(
     Output('topic-selection', 'children'),
-    [Input('select-topic', 'value')])
+    [Input('user-topic', 'value')])
 def update_topic(selection):
     if selection is not None:
         return ', '.join(selection)
     else: 
         return ''
+
+@app.callback(
+    Output('topic-text', 'children'),
+    [Input('user-name', 'value'), Input('user-topic', 'value'),
+     Input('world-map', 'clickData')])
+def update_topic_text(user_name, target_topics, target_country):
+
+    inputs = [user_name, target_topics, target_country]
+
+    def render_topic_text(user_name, user_sex, user_country, target_country, target_topics):
+        topic_text = [
+            summarise_indicators(user_name, user_sex, user_country, target_country, topic) for topic in target_topics]
+        return "\n\n".join(topic_text)
+
+    if all(input is not None for input in inputs):
+        # user_name = "Sam"
+        user_sex = "female"
+        user_country = "New Zealand"
+        # target_country = "India"
+        # target_topics = "Food"
+        return summarise_indicators(user_name, user_sex, user_country, target_country, target_topics[0])
+        # return render_topic_text(user_name, user_sex, user_country, target_country, target_topics)
 
 if __name__ == '__main__':
     app.run_server(debug=True)

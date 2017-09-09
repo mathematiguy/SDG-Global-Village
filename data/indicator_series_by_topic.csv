@@ -1,0 +1,63 @@
+goal,indicator_id,topic,series_code,location,age_group,sex,value_type,unit,indicator_text,value_judgement
+8,C080601,people,SL_TLF_NEET,Total (national level),15 to 24 years old,Both sexes or no breakdown by sex,,Percent,"of its people aged 15 to 24 were not in school, education, or training, and also could not find a job?",bad
+8,C080601,working,SL_TLF_NEET,Total (national level),15 to 24 years old,Both sexes or no breakdown by sex,,Percent,"of its people aged 15 to 24 were not in school, education, or training, and also could not find a job?",bad
+3,C030702,girls,SP_DYN_ADKL,Total (national level),15 to 19 years old,Female,,"Per 1,000 population",of its girls aged 15 to 19 became pregnant and had a baby?,good
+3,C030702,health,SP_DYN_ADKL,Total (national level),15 to 19 years old,Female,,"Per 1,000 population",of its girls aged 15 to 19 became pregnant and had a baby?,good
+4,C040101,school,SE_PRM_MATH,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its children have good maths skills by the end of primary school?,good
+4,C040101,science,SE_PRM_MATH,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its children have good maths skills by the end of primary school?,good
+4,C040401,computers,SE_ADT_ICTPRGM,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people can write computer programs?,good
+4,C040401,school,SE_ADT_ICTPRGM,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people can write computer programs?,good
+4,C040301,school,SE_ADT_EDUCTRN,Total (national level),25 to 64 years old,Both sexes or no breakdown by sex,,Percent,"of its people aged 25 to 64 were in school, education, or training?",good
+4,C040301,working,SE_ADT_EDUCTRN,Total (national level),25 to 64 years old,Both sexes or no breakdown by sex,,Percent,"of its people aged 25 to 64 were in school, education, or training?",good
+5,C050301,girls,SP_DYN_MRBF18,Total (national level),20 to 24 years old,Female,,Percent,of its women aged 20 to 24 were married before they were aged 18?,bad
+5,C050301,people,SP_DYN_MRBF18,Total (national level),20 to 24 years old,Female,,Percent,of its women aged 20 to 24 were married before they were aged 18?,bad
+1,C010101,sharing,SI_POV_DAY1,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,"of its people are very poor; they are 'below the international poverty line', living on less than US$1.90 per day?",bad
+2,C020101,food,SN_ITK_DEFC,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,"of its people are very poor; they are 'below the international poverty line', living on less than US$1.90 per day?",bad
+3,C030101,girls,SH_STA_MORT,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,"Per 100,000 live births",of its pregnant mothers die giving birth to their baby?,bad
+3,C030101,health,SH_STA_MORT,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,"Per 100,000 live births",of its pregnant mothers die giving birth to their baby?,bad
+3,C030201,health,SH_DYN_MORT,Total (national level),under 5 years old,Both sexes or no breakdown by sex,,"Per 1,000 live births",of its children die before their fifth birthday?,bad
+3,C030601,health,SH_STA_TRAF,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,"Per 100,000 population",of its people die in car accidents each year?,bad
+3,C030601,transport,SH_STA_TRAF,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,"Per 100,000 population",of its people die in car accidents each year?,bad
+4,C040202,school,SE_PRE_PARTN,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,"of its children go to preschool, kindergarten, or other organised learning, before they start school?",good
+5,C050501,girls,SG_GEN_PARL,Total (national level),All age ranges or no breakdown by age,Female,,Percent,of its national parliament seats are held by women?,good
+5,C050501,sharing,SG_GEN_PARL,Total (national level),All age ranges or no breakdown by age,Female,,Percent,of its national parliament seats are held by women?,good
+6,C060402,water,ER_H2O_STRESS,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its available fresh water is used by people?,bad
+6,C060101,water,SH_H2O_SAFE,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people have access to good drinking water?,good
+6,C060201,poos,SH_SAN_SAFE,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people have access to good toilets and hand washing?,good
+6,C060201,toilets,SH_SAN_SAFE,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people have access to good toilets and hand washing?,good
+7,C070101,power,EG_ELC_ACCS,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people have access to electric power?,good
+7,C070102,power,EG_EGY_CLEAN,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people use mainly clean fuels and technologies?,good
+7,C070201,power,EG_FEC_RNEW,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its energy use comes from renewable energy?,good
+8,C080701,working,SL_TLF_CHDLBR,Total (national level),5 to 14 years old,Both sexes or no breakdown by sex,,Percent,of its children aged 5 to 14 have to work?,bad
+8,C080502,working,SL_TLF_UEM,Total (national level),15 to 24 years old,Both sexes or no breakdown by sex,,Percent,of its people aged 15 to 24 could not find work?,bad
+8,C080101,money,NY_GDP_PCAP,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was new value added since the year before?,good
+8,C080101,working,NY_GDP_PCAP,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was new value added since the year before?,good
+9,C090502,science,GB_POP_SCIERD,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Per million population,of its people had jobs researching new science and technology?,good
+9,C090502,technology,GB_POP_SCIERD,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Per million population,of its people had jobs researching new science and technology?,good
+9,C090502,working,GB_POP_SCIERD,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Per million population,of its people had jobs researching new science and technology?,good
+9,C090501,money,GB_XPD_RSDV,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was value added by researching and developing science and technology?,good
+9,C090501,science,GB_XPD_RSDV,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was value added by researching and developing science and technology?,good
+9,C090501,technology,GB_XPD_RSDV,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was value added by researching and developing science and technology?,good
+9,C090202,working,SL_TLF_MANF,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its workers had jobs making new things in factories?,good
+9,C090201,money,NV_IND_MANF,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was value added by making new things in factories?,good
+9,C090201,working,NV_IND_MANF,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its economy was value added by making new things in factories?,good
+9,C090c01,computers,IT_MOB_4GNTWK,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people with a modern smart phone can access the internet?,good
+9,C090c01,technology,IT_MOB_4GNTWK,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people with a modern smart phone can access the internet?,good
+10,C100401,money,SL_EMP_GTOTL,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of the benefits of its economy went to its workers and their families?,good
+10,C100401,sharing,SL_EMP_GTOTL,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of the benefits of its economy went to its workers and their families?,good
+11,C110101,cities,EN_LND_SLUM,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people living in cities were living in in slums or poor housing?,bad
+11,C110101,homes,EN_LND_SLUM,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people living in cities were living in in slums or poor housing?,bad
+11,C110101,houses,EN_LND_SLUM,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its people living in cities were living in in slums or poor housing?,bad
+14,C140501,fish,ER_MRN_MARIN,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its marine areas are protected?,good
+14,C140501,oceans,ER_MRN_MARIN,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its marine areas are protected?,good
+14,C140501,seas,ER_MRN_MARIN,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its marine areas are protected?,good
+15,C150102,animals,ER_PTD_TERR,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its important land biodiversity is protected?,good
+15,C150102,nature,ER_PTD_TERR,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its important land biodiversity is protected?,good
+15,C150102,plants,ER_PTD_TERR,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its important land biodiversity is protected?,good
+15,C150102,fish,ER_PTD_FRHWTR,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its important freshwater biodiversity is protected?,good
+15,C150102,nature,ER_PTD_FRHWTR,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its important freshwater biodiversity is protected?,good
+15,C150102,plants,ER_PTD_FRHWTR,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its important freshwater biodiversity is protected?,good
+15,C150101,nature,AG_LND_FRST,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its land is forest?,good
+15,C150101,plants,AG_LND_FRST,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its land is forest?,good
+15,C150201,nature,AG_LND_FRSTPRCT,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its forest is protected?,good
+15,C150201,plants,AG_LND_FRSTPRCT,Total (national level),All age ranges or no breakdown by age,Both sexes or no breakdown by sex,,Percent,of its forest is protected?,good
