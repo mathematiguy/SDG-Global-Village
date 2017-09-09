@@ -10,9 +10,12 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
 
     def get_country_nickname(country, country_data):
         '''Returns the nickname of a country using country_data'''
+        print("Country:", country_data
+                .loc[country_data.country == country, 'nickname']
+                .values[0])
         return country_data.loc[
                     country_data.country == country,
-                    'nickname'].iloc[0]
+                    'nickname'].values[0]
 
     user_country_nickname = get_country_nickname(user_country, country_data)
 
@@ -20,12 +23,11 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
 
     # derive child name and population from user data
     country_child_name = country_data.loc[
-        country_data.country == target_country, user_sex + "_name"]\
-        .iloc[0]
+        country_data.country == target_country, user_sex + "_name"].values[0]
 
     target_population = country_data.loc[
         country_data.country == target_country, 'population']\
-        .iloc[0]
+            .values[0]
 
     def select_indicators(selected_indicators, target_country, target_topic):
 
@@ -70,13 +72,13 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
             np.logical_and(
                 sdg_selection.value.max() >= perc_data.lower_bound,
                 sdg_selection.value.max() < perc_data.upper_bound),
-            'text'].iloc[0]
+            'text'].values[0]
 
         comparison_text = comp_data.loc[
             np.logical_and(
                 sdg_selection.value.max() >= comp_data.lower_bound,
                 sdg_selection.value.max() < comp_data.upper_bound),
-            'text'].iloc[0]
+            'text'].values[0]
 
         summary_text.append('Hi {}! My name is {}.\n'\
                     .format(user_name, country_child_name))
@@ -105,7 +107,7 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
 
         percent_value = sdg_selection.loc[
             sdg_selection.year == sdg_selection.year.max(),
-            'value'].iloc[0] * 100
+            'value'].values[0] * 100
 
         summary_text += [
              '{}, did you know that in {} in {:d},'.format(
@@ -113,7 +115,7 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
 
              '{} ({:.1f}%) {}'.format(
                 perc_text, percent_value,
-                indicator_selection.indicator_text.iloc[0]
+                indicator_selection.indicator_text.values[0]
                 ),
             ]
 
@@ -125,15 +127,15 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
 
 # uncomment this block for testing
 
-# Get user data
+# # Get user data
 # user_name = "Sam"
 # user_sex = "female"
 
 # # select user country at random (for testing)
-# user_country = country_data.country.sample().iloc[0]
+# user_country = country_data.country.sample().values[0]
 
 # # select target country at random (for testing)
-# target_country = country_data.country.sample().iloc[0]
+# target_country = country_data.country.sample().values[0]
 
 # # select topic at random (for testing)
 # target_topic = random.choice(sdg_data.topic.unique())

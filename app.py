@@ -176,9 +176,9 @@ def update_topic(selection):
 
 @app.callback(
     Output('topic-text', 'children'),
-    [Input('user-name', 'value'), Input('user-topic', 'value'),
-     Input('world-map', 'clickData')])
-def update_topic_text(user_name, target_topics, target_country):
+    [Input('user-name', 'value'),  Input('user-sex', 'value'), 
+     Input('user-topic', 'value'), Input('world-map', 'clickData')])
+def update_topic_text(user_name, user_sex, target_topics, target_country):
 
     inputs = [user_name, target_topics, target_country]
 
@@ -188,13 +188,9 @@ def update_topic_text(user_name, target_topics, target_country):
         return "\n\n".join(topic_text)
 
     if all(input is not None for input in inputs):
-        # user_name = "Sam"
-        user_sex = "female"
         user_country = "New Zealand"
-        # target_country = "India"
-        # target_topics = "Food"
-        return summarise_indicators(user_name, user_sex, user_country, target_country, target_topics[0])
-        # return render_topic_text(user_name, user_sex, user_country, target_country, target_topics)
+        # return " ".join(map(str, [user_name, user_sex, user_country, target_country['points'][0]['text'], target_topics]))
+        return render_topic_text(user_name, user_sex, user_country, target_country['points'][0]['text'], target_topics)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
