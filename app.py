@@ -8,6 +8,12 @@ import os
 import json
 import base64
 
+<<<<<<< HEAD
+=======
+import nltk
+nltk.data.path.append('./nltk_data')
+
+>>>>>>> 9dc0f4472dedebcbee4ef7c8a74892d7f7ec2f57
 from nltk.tokenize import word_tokenize, sent_tokenize
 import plotly.graph_objs as go
 
