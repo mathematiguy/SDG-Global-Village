@@ -10,9 +10,6 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
 
     def get_country_nickname(country, country_data):
         '''Returns the nickname of a country using country_data'''
-        print("Country:", country_data
-                .loc[country_data.country == country, 'nickname']
-                .values[0])
         return country_data.loc[
                     country_data.country == country,
                     'nickname'].values[0]

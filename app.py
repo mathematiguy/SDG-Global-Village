@@ -8,12 +8,9 @@ import os
 import json
 import base64
 
-<<<<<<< HEAD
-=======
 import nltk
 nltk.data.path.append('./nltk_data')
 
->>>>>>> 9dc0f4472dedebcbee4ef7c8a74892d7f7ec2f57
 from nltk.tokenize import word_tokenize, sent_tokenize
 import plotly.graph_objs as go
 
@@ -22,10 +19,7 @@ from load_data import *
 from map import world_map_fig
 
 # create base map for country selection
-# from home import layout, callbacks
 from parse_text import summarise_indicators
-
-# from home.callbacks import *
 
 app = dash.Dash(__name__)
 
@@ -119,8 +113,6 @@ app.layout = html.Div(
             figure = world_map_fig
         ),
         
-        # html.H3(id = 'topic-picture'),
-
         html.Div([
             dcc.Markdown("""
                 Your country is:
@@ -144,12 +136,7 @@ app.layout = html.Div(
                     }
             ),
 
-            html.Img(
-                id = 'test-image',
-                src = 'data:image/jpeg;base64,{}'
-                        .format(encoded_image.decode("utf-8"))),
-
-            dcc.Markdown(id = 'image-text'),
+            html.Img(id = 'country-image'),
 
         ]),
 
@@ -191,7 +178,7 @@ def update_topic(selection):
      Input('user-topic', 'value'), Input('world-map', 'clickData')])
 def update_topic_text(user_name, user_sex, target_topics, target_country):
 
-    inputs = [user_name, target_topics, target_country]
+    inputs = [user_name, user_sex, target_topics, target_country]
 
     def render_topic_text(user_name, user_sex, user_country, target_country, target_topics):
         topic_text = [
@@ -204,10 +191,24 @@ def update_topic_text(user_name, user_sex, target_topics, target_country):
 
 @app.callback(
     Output('country-image', 'src'),
-    [Input('world-map', 'src')])
-def update_image_text(country_source):
-    if country_source is not None:
-        return str(country_source)
+    [Input('world-map', 'clickData')])
+def update_country_image(target_country):
+
+    def render_image(filepath):
+        encoded_image = base64.b64encode(
+            open("./" + filepath, 'rb').read())
+        return 'data:image/jpeg;base64,{}'\
+                    .format(encoded_image.decode("utf-8"))
+
+    if target_country is not None:
+        country = target_country['points'][0]['text']
+        filepath = (image_data
+            .loc[(image_data.country == country) &
+                  image_data.downloaded, 'filepath']
+            .sample()
+            .values[0])
+
+        return render_image(filepath)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
