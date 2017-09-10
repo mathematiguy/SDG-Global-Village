@@ -6,6 +6,7 @@ from dash.dependencies import Input, Output
 
 import os
 import json
+import base64
 
 from nltk.tokenize import word_tokenize, sent_tokenize
 import plotly.graph_objs as go
@@ -137,8 +138,12 @@ app.layout = html.Div(
                     }
             ),
 
-            html.Img(src = 'data:image/jpeg;base64,{}'
-                .format(encoded_image.decode("utf-8"))),
+            html.Img(
+                id = 'test-image',
+                src = 'data:image/jpeg;base64,{}'
+                        .format(encoded_image.decode("utf-8"))),
+
+            dcc.Markdown(id = 'image-text'),
 
         ]),
 
@@ -189,8 +194,14 @@ def update_topic_text(user_name, user_sex, target_topics, target_country):
 
     if all(input is not None for input in inputs):
         user_country = "New Zealand"
-        # return " ".join(map(str, [user_name, user_sex, user_country, target_country['points'][0]['text'], target_topics]))
         return render_topic_text(user_name, user_sex, user_country, target_country['points'][0]['text'], target_topics)
+
+@app.callback(
+    Output('country-image', 'src'),
+    [Input('world-map', 'src')])
+def update_image_text(country_source):
+    if country_source is not None:
+        return str(country_source)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
