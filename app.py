@@ -126,9 +126,9 @@ app.layout = html.Div(
         
             html.H3(id = 'topic-selection'),
 
-            html.H5(id = "country-text"),
+            dcc.Markdown(id = "country-text"),
 
-            html.P(id = "topic-text"),
+            dcc.Markdown(id = "topic-text"),
 
             html.Div('Here is an image from the country you selected:',
                 style = {
