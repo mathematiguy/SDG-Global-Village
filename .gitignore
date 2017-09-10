@@ -105,3 +105,6 @@ dash-env
 *.pyc
 .DS_Store
 .env
+
+# large data files
+data/sdg_data.csv

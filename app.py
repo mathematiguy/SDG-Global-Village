@@ -33,8 +33,6 @@ colors = {
     'text': '#111111'           # black
 }
 
-encoded_image = base64.b64encode(open('test.jpg', 'rb').read())
-
 styles = {
     'column': {
         'display': 'inline-block',
@@ -117,7 +115,8 @@ app.layout = html.Div(
             dcc.Markdown("""
                 Your country is:
                 """.replace('    ', '')),
-                html.H3(id = 'click-country'),
+            
+            html.H3(id = 'click-country'),
 
             dcc.Markdown("""
                 Your topics are:
@@ -126,7 +125,7 @@ app.layout = html.Div(
             html.H3(id = 'topic-selection'),
 
             dcc.Markdown(id = "country-text"),
-
+ 
             dcc.Markdown(id = "topic-text"),
 
             html.Div('Here is an image from the country you selected:',
