@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import base64
 
 sdg_data = pd.read_csv("data/sdg_data.csv", encoding = 'ansi', 
 	low_memory = False)
