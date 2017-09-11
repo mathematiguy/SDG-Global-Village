@@ -1,16 +1,13 @@
 import numpy as np
 import pandas as pd
 
-sdg_data = pd.read_csv("data/sdg_data.csv", encoding = 'ansi', 
-                       low_memory = False)
+sdg_data = pd.read_csv("data/sdg_data.csv", low_memory = False)
 
-selected_indicators = pd.read_csv("data/selected_indicators.csv", 
-                                  encoding = "ansi")
+selected_indicators = pd.read_csv("data/selected_indicators.csv")
 
 image_data = pd.read_csv("data/search_results.csv")
 
-country_data = pd.read_csv("data/country_metadata.csv", 
-                           encoding = "ansi")
+country_data = pd.read_csv("data/country_metadata.csv")
 
 indicators_by_topic = pd.read_csv("data/indicators_by_topic.csv", 
                                   sep = "\t", encoding = "utf-8")
