@@ -177,12 +177,12 @@ def update_topic(selection):
      Input('user-topic', 'value'), Input('world-map', 'clickData')])
 def update_topic_text(user_name, user_sex, target_topics, target_country):
 
-    inputs = [user_name, user_sex, target_topics, target_country]
-
     def render_topic_text(user_name, user_sex, user_country, target_country, target_topics):
         topic_text = [
             summarise_indicators(user_name, user_sex, user_country, target_country, topic) for topic in target_topics]
         return "\n\n".join(topic_text)
+
+    inputs = [user_name, user_sex, target_topics, target_country]
 
     if all(input is not None for input in inputs):
         user_country = "New Zealand"

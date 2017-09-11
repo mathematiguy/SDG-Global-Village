@@ -38,4 +38,3 @@ layout = dict(
 )
 
 world_map_fig = dict(data=data, layout=layout)
-# graph = py.iplot( fig, validate=False, filename='d3-world-map')

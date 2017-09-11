@@ -43,7 +43,7 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
                 sdg_data.topic == target_topic)]
 
         if len(sdg_selection) > 0:
-        	# there is data, so continue on to merge
+            # there is data, so continue on to merge
             # subset sdg_selection based on selected indicators
             sdg_selection = sdg_selection.merge(indicator_selection, 
                 on = ['goal', 'priority', 'indicator_id', 'topic', 
@@ -86,7 +86,7 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
             e.g. 12345 -> 12 thousand
             '''
             millnames = ['', 'thousand', 'million', 'billion', 
-            			 'trillion']
+                         'trillion']
             n = float(n)
             millidx = max(0,
                 min(len(millnames)-1,
@@ -117,8 +117,8 @@ def summarise_indicators(user_name, user_sex, user_country, target_country, targ
             ]
 
         if len(sdg_selection.year.unique()) > 1:
-        	summary_text.append('This is {} as in {}'.format(
-        		comparison_text, sdg_selection.year.min()))
+            summary_text.append('This is {} as in {}'.format(
+                comparison_text, sdg_selection.year.min()))
 
         return ' '.join(summary_text)
 
