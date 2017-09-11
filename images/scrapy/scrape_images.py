@@ -46,7 +46,7 @@ def get_domain(link):
         if search_result is not None:
             return search_result.group(0)
 
-with open("search_results.csv", "a") as results_file:
+with open(data_dir + "search_results.csv", "a") as results_file:
 	result_count = 0
 	past_queries = list(search_results['query'].unique())
 	results = []
